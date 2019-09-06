@@ -22,5 +22,5 @@ def find_the_cheese(array)
   the_cheeses = ["cheddar", "gouda", "camembert"]
   
   array.find do |c|
-    the_cheeses.include?(maybe_cheese)
+    the_cheeses.include?(c)
 end
